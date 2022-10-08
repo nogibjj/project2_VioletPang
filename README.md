@@ -6,15 +6,15 @@ This project included below features: <br>
 5 useful command in python file: 
 bash CLI for loading and showing basic information of McDonald's nutrition datasets
 
-In the main.py, it contains six useful commands: loaddata, fetchlist, sortbycalories, seemax, numofitems, seebreakfast
-loaddata - Load dataset
-fetchlist - fetch items list
-sortbycalories - return sorted list by calories
-seemax - See max value of each dataset
-numofitems - See Number of Menu Items for each Food Category
-seebreakfast - See List of Breakfast Items
+In the main.py, it contains six useful commands: loaddata, fetchlist, sortbycalories, seemax, numofitems, seebreakfast <br>
+loaddata - Load dataset <br>
+fetchlist - fetch items list <br>
+sortbycalories - return sorted list by calories<br>
+seemax - See max value of each dataset <br>
+numofitems - See Number of Menu Items for each Food Category <br>
+seebreakfast - See List of Breakfast Items <br>
 
-In process_data.sh, it contains the bash script for preparing the menu.csv for processing. By running bash process_data.sh menu.csv > text.txt, 
+In process_data.sh, it contains the bash script for preparing the menu.csv for processing. By running bash process_data.sh menu.csv > text.txt, <br>
 we can learn the basic information such as number of columns, categories, the items in descending order of calories in McDonald's menu. 
 
 ## Getting Started
