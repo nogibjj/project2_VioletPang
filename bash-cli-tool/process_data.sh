@@ -14,3 +14,7 @@ echo ""
 echo "Column names are: "
 echo ""
 echo $colnames
+echo ""
+echo "List of items in the descending order of calories:"
+sorted=$(sort -k4 -n -t, $1)
+echo $sorted

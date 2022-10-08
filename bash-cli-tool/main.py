@@ -35,5 +35,20 @@ def seemax():
     max_values = df[['Calories','Total Fat','Carbohydrates','Dietary Fiber','Sugars','Protein','Vitamin A (% Daily Value)','Vitamin C (% Daily Value)','Calcium (% Daily Value)','Iron (% Daily Value)']].max()
     print(max_values)
 
+@app.command()
+def numOfItems(): 
+    """See Number of Menu Items for each Food Category"""
+    df = pd.read_csv('menu.csv')
+    cate_count = df.Category.value_counts()
+    print(cate_count)
+
+@app.command()
+def seeBreakfast():
+    """See List of Breakfast Items"""
+    df = pd.read_csv('menu.csv')
+    breakfast_list = df[df['Category'] == 'Breakfast']
+    print(breakfast_list)
+
+
 if __name__ == "__main__":
     app()
