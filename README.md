@@ -29,13 +29,13 @@ python, bash
 bash process_data.sh menu.csv > text.txt
 
 ## Running the python command
-python main.py --help
-python main.py loaddata
-python main.py fetchlist
-python main.py sortbycalories
-python main.py seemax
-python main.py numofitems
-python main.py seebreakfast
+python main.py --help <br>
+python main.py loaddata <br>
+python main.py fetchlist <br>
+python main.py sortbycalories <br>
+python main.py seemax <br>
+python main.py numofitems <br>
+python main.py seebreakfast <br>
 
 
 
